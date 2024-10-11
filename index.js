@@ -25,6 +25,7 @@ function populateCards() {
                     <h5 class="card-title">${card.name}</h5>
                     <p class="card-text">${card.description}</p>
                 </div>
+                <p class="repo">repo</p>
             </div>
         `;
       } else {
@@ -34,6 +35,7 @@ function populateCards() {
                 <div class="card-body">
                     <h5 class="card-title">${card.name}</h5>
                 </div>
+                <p class="user">user</p>
             </div>
         `;
       }
