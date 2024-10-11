@@ -1,0 +1,32 @@
+.card-image{
+    width: 80px;
+    border-radius: 50%;
+}
+
+.card-container-custom{
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 1.5rem;
+    column-gap: 1.5rem;
+    justify-content: center;
+}
+
+.content-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 250px;
+    height: 300px;
+    padding-block: 50px;
+    padding-inline: 10px;
+    background-color: rgb(219, 219, 219);
+}
+
+.card-text{
+    overflow-y: auto;
+}
+
+.noResults{
+    font-size: 100px;
+    color: rgba(0, 0, 0, 0.418)
+}
